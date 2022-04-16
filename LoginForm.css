@@ -1,0 +1,172 @@
+/* red- #e63946; */
+/* light red- #ffadb3; */
+
+.form {
+  margin: 1rem 0;
+  height: 19rem;
+  overflow: scroll;
+  width:20rem;
+}
+
+.heading-info {
+  margin: 1rem;
+  font-size: large;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.nameControlClasses {
+  margin-bottom: 0.5rem;
+  font-size: large;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.passwordControlClasses {
+  margin-bottom: 0.5rem;
+  font-size: large;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.actions {
+  margin: 15px;
+  background-color: #f5f3f4;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.actions .submit-btn {
+  font: inherit;
+  color: #e63946;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+}
+
+.actions .cancel-btn:hover,
+.actions .cancel-btn:active {
+  background-color: whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.actions .submit-btn:hover,
+.actions .submit-btn:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.actions .cancel-btn {
+  font: inherit;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  background-color: #e63946;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  border: none;
+}
+
+input {
+  margin-left: 15px;
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 15rem;
+  max-width: 100%;
+  display: inline;
+}
+.login-input {
+  display: flex;
+  float: right;
+}
+
+@media screen and (max-width: 760px) {
+  .form {
+    margin: 0.5rem 0;
+    height: 19rem;
+    overflow: scroll;
+  }
+
+  .heading-info {
+    margin: 0.5rem;
+    font-size: medium;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .nameControlClasses {
+    margin-bottom: 0.5rem;
+    font-size: medium;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .passwordControlClasses {
+    margin-bottom: 0.5rem;
+    font-size: medium;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .actions {
+    margin: 15px;
+    background-color: #f5f3f4;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .actions .submit-btn {
+    font: inherit;
+    color: #e63946;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+  }
+
+  .actions .cancel-btn:hover,
+  .actions .cancel-btn:active {
+    background-color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .actions .submit-btn:hover,
+  .actions .submit-btn:active {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .actions .cancel-btn {
+    font: inherit;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    background-color: #e63946;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    border: none;
+  }
+
+  input {
+    margin-left: 5px;
+    margin-right: 15px;
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 18rem;
+    max-width: 100%;
+    display: inline;
+  }
+  .login-input {
+    display: flex;
+    float: right;
+  }
+}
